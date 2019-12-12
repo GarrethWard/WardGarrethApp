@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Mercury"
+             Title="Mercury"
+    BackgroundImage="galaxy.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+            <Label FontSize="50" Text="Welcome to Mercury"></Label>
+
+            <Label HorizontalOptions="Center" WidthRequest="10000" Text="5 Facts About Mercury"></Label>
+            <Label  Text="1: Mercury has been known to humanity since ancient times and although its discovery date is unknown, the first mentions of the planet are believed to be around 3000 BC by the Sumerians."></Label>
+            <Label WidthRequest="10000" Text="2:A year in Mercury is 88 days, yet a Mercury day is 176 Earth days. Mercury is nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun."></Label>
+            <Label WidthRequest="10000" Text="3: Mercury orbits so quickly around the Sun that early civilizations believed it was actually two different stars – one which appeared in the morning and another which appeared in the evening."></Label>
+            <Label WidthRequest="10000" Text="4: Mercury is the smallest planet in the solar system with a diameter of 4,879 km and is one of five planets that is visible to the naked eye."></Label>
+            <Label WidthRequest="10000" Text="5:After the Earth, Mercury is the second densest planet. Despite its small size, Mercury is very dense because it is composed mainly of heavy metals and rock – the main characteristic of terrestrial planets."></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

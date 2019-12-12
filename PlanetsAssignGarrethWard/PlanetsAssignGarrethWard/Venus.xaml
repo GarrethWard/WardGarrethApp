@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Venus"
+             Title="Venus"
+   BackgroundImage="galaxy.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+            <Label FontSize="50" Text="Welcome to Venus"></Label>
+
+            <Label HorizontalOptions="Center" WidthRequest="10000" Text="5 Facts About Venus"></Label>
+            <Label WidthRequest="10000" Text="1: Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter."></Label>
+            <Label WidthRequest="10000" Text="2: Venus is sometimes referred to as the morning star and evening star. This dates back to ancient civilizations who believed that Venus was in fact two distinct stars appearing in the sky. When the orbit of Venus overtakes Earth's orbit, it changes from being visible at sunrise to being visible at sunset. They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans."></Label>
+            <Label WidthRequest="10000" Text="3:One day on Venus is longer than one year. Due to the slow rotation on its axis, it takes 243 Earth-days to complete one rotation. The orbit of the planet takes 225 Earth-days – making a year on Venus shorter on day on Venus."></Label>
+            <Label WidthRequest="10000" Text="4: Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as bright queen of the sky."></Label>
+            <Label WidthRequest="10000" Text="5:Billions of years ago, the climate of Venus may been similar to that of Earth and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and the surface of the planet is now too hot and hostile to sustain life"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Saturn"
+             Title="Saturn"
+             BackgroundImage="galaxy.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+            <Label FontSize="50" Text="Welcome to Saturn"></Label>
+            
+            <Label HorizontalOptions="Center" WidthRequest="10000" Text="5 Facts About Saturn"></Label>
+            <Label WidthRequest="10000" Text="1:  Saturn is the least dense planet in the Solar System
+Saturn has a density of 0.687 grams/cubic centimeter. Just for comparison, water is 1 g/cm3 and the Earth is 5.52. Since Saturn is less dense than water, it would actually float like an apple if you could find a pool large enough. Of course, why you'd want to ruin a pool with all that hydrogen, helium and ices…"></Label>
+            <Label WidthRequest="10000" Text="2: Saturn is a flattened ball
+Saturn spins so quickly on its axis that the planet flattens itself out into an oblate spheroid. Seriously, you see this by eye when you look at a picture of Saturn; it looks like someone squished the planet a little. Of course, it's the rapid spinning that's squishing it, causing the equator to bulge out.
+This phenomenon is caused by the nickel-iron core of the planet, coupled with its rapid rotation. This field protects the Earth from the effects of solar wind. "></Label>
+            <Label WidthRequest="10000" Text="3: The first astronomers thought the rings were moons.
+When Galileo first turned his rudimentary telescope on Saturn in 1610, he could see Saturn and its rings, but he didn't know what he was looking at. He though that the rings might actually be two large moons stuck to either side of Saturn – ears maybe?"></Label>
+            <Label WidthRequest="10000" Text="4: Saturn has only been visited 4 times by spacecraft
+Only 4 spacecraft sent from Earth have ever visited Saturn, and three of these were just brief flybys. The first was Pioneer 11, in 1979, which flew within 20,000 km of Saturn. Next came Voyager 1 in 1980, and then Voyager 2 in 1981. It wasn't until Cassini's arrival in 2004 that a spacecraft actually went into orbit around Saturn and captured photographs of the planet and its rings and moons."></Label>
+            <Label WidthRequest="10000" Text="5: Saturn has 62 moons
+            Jupiter has 67 discovered moons, but Saturn is a close second with 62. Some of these are large, like Titan, the second largest moon in the Solar System. But most are tiny – just a few km across, and they have no official names. In fact, the last few were discovered by NASA's Cassini orbiter just a few years ago. More will probably be discovered in the coming years"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

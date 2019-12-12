@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Neptune"
+             Title="Neptune"  BackgroundImage="galaxy.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+            <Label FontSize="50" Text="Welcome to Neptune"></Label>
+
+            <Label HorizontalOptions="Center" WidthRequest="10000" Text="5 Facts About Neptune"></Label>
+            <Label WidthRequest="10000" Text="1:  t takes Neptune 164.8 Earth years to orbit the Sun. On 11 July 2011, Neptune completed its first full orbit since its discovery in 1846."></Label>
+            <Label WidthRequest="10000" Text="2: Neptune was discovered by Jean Joseph Le Verrier. The planet was not known to ancient civilizations because it is not visible to the naked eye. The planet was initially called Le Verrier after its discoverer. This name, however, quickly was abandoned and the name Neptune was chosen instead.
+This phenomenon is caused by the nickel-iron core of the planet, coupled with its rapid rotation. This field protects the Earth from the effects of solar wind. "></Label>
+            <Label WidthRequest="10000" Text="3: Neptune has the second largest gravity of any planet in the solar system – second only to Jupiter."></Label>
+            <Label WidthRequest="10000" Text="4: The orbit path of Neptune is approximately 30 astronomical units (AU) from the Sun. This means it is around 30 times the distance from the Earth to the Sun."></Label>
+            <Label WidthRequest="10000" Text="5: The largest Neptunian moon, Triton, was discovered just 17 days after Neptune itself was discovered."></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

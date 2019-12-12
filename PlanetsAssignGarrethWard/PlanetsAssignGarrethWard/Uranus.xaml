@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Uranus"
+             Title="Uranus"
+    BackgroundImage="galaxy.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+            <Label FontSize="50" Text="Welcome to Uranus"></Label>
+
+            <Label HorizontalOptions="Center" WidthRequest="10000" Text="5 Facts About Uranus"></Label>
+            <Label  Text="1:Uranus rotates on its axis once every 17 hours and 14 minutes. Like Venus, it turns in a retrograde direction which is opposite to the direction Earth and the other six planets turn."></Label>
+            <Label WidthRequest="10000" Text="2: It takes Uranus 84 Earth days to orbit the Sun. Its axis is at 98 degrees, which means it almost lies sideways as it orbits the Sun. This means that the north and south poles of Uranus lie near where the equator is on Earth. During parts of its orbit one or other of the poles directly face the Sun which means the planet gets around 42 years of direct sunlight followed by 42 years of darkness."></Label>
+            <Label WidthRequest="10000" Text="3: A collision may have caused the unusual tilt of Uranus. The theory is that an Earth-sized planet may have collided with Uranus which forced its axis to drastically shift."></Label>
+            <Label WidthRequest="10000" Text="4: Uranus wind speeds can reach up to 900 km per hour. This is roughly 560 miles per hour."></Label>
+            <Label WidthRequest="10000" Text="5: The mass of Uranus is about 14.5 times the mass of Earth, making it the lightest of the four gas giants of the outer solar system."></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Newsletter">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+
+                <Label Text="Sign Up Now" FontSize="Medium" HorizontalTextAlignment="Center"></Label>
+
+                <Entry x:Name="txtId" Placeholder="Enter Email"></Entry>
+
+                <Entry x:Name="txtName" Placeholder="Enter Name"></Entry>
+
+                <Button x:Name="btnStore" Text="Sign Up"></Button>
+
+                <Button x:Name="btnGet" Text="Check Details"></Button>
+
+            </StackLayout>
+
+            <StackLayout>
+
+                <Label x:Name="lblId" Text="ID" HorizontalTextAlignment="Center"></Label>
+
+                <Label x:Name="lblName" Text="Name" HorizontalTextAlignment="Center"></Label>
+
+        
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

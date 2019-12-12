@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Page2"
+             Title="Earth"
+             BackgroundImage="galaxy.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+            <Label FontSize="50" Text="Welcome to Earth"></Label>
+            
+            <Label HorizontalOptions="Center" WidthRequest="10000" Text="5 Facts About Earth"></Label>
+            <Label WidthRequest="10000" Text="1: The Earth's rotation is gradually slowing.
+This deceleration is happening almost imperceptibly, at approximately 17 milliseconds per hundred years, although the rate at which it occurs is not perfectly uniform. This has the effect of lengthening our days, but it happens so slowly that it could be as much as 140 million years before the length of a day will have increased to 25 hours."></Label>
+            <Label WidthRequest="10000" Text="2: The Earth was once believed to be the centre of the universe.
+Due to the apparent movements of the Sun and planets in relation to their viewpoint, ancient scientists insisted that the Earth remained static, whilst other celestial bodies travelled in circular orbits around it. Eventually, the view that the Sun was at the centre of the universe was postulated by Copernicus, though this is also not the case"></Label>   
+            <Label WidthRequest="10000" Text="3: Earth has a powerful magnetic field.
+This phenomenon is caused by the nickel-iron core of the planet, coupled with its rapid rotation. This field protects the Earth from the effects of solar wind. "></Label>
+            <Label WidthRequest="10000" Text="4: There is only one natural satellite of the planet Earth.
+As a percentage of the size of the body it orbits, the Moon is the largest satellite of any planet in our solar system. In real terms, however, it is only the fifth largest natural satellite."></Label>
+            <Label WidthRequest="10000" Text="5: Earth is the only planet not named after a god.
+The other seven planets in our solar system are all named after Roman gods or goddesses. Although only Mercury, Venus, Mars, Jupiter and Saturn were named during ancient times, because they were visible to the naked eye, the Roman method of naming planets was retained after the discovery of Uranus and Neptune."></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanetsAssignGarrethWard.Page1"
+             BackgroundImage="galaxy.jpg"
+             Title="Home">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Lets Learn About Planets" FontSize="44">
+            </Label>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Earth" Clicked="Button_Clicked"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Mars" Clicked="Button_Clicked_1"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Saturn" Clicked="Button_Clicked_2"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Neptune" Clicked="Button_Clicked_3"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Venus" Clicked="Button_Clicked_4"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Mercury" Clicked="Button_Clicked_5"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Uranus" Clicked="Button_Clicked_6"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Purple" Text="Jupiter" Clicked="Button_Clicked_7"></Button>
+            <Button BorderColor="Blue" BackgroundColor="Yellow" Text="Sign Up for News Letter" Clicked="Button_Clicked_8"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
